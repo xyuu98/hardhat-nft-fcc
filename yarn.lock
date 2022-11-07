@@ -842,9 +842,9 @@
   integrity sha512-dGRS0agJzu8ybo44pCIf3xBaPQN/65AIXNgK8+4gzKd5kbvlqyxryUYVLJv7fK98Seyd2hDZzVEHSWAh0Bt1Yw==
 
 "@pinata/sdk@^1.1.23":
-  version "1.1.26"
-  resolved "https://registry.yarnpkg.com/@pinata/sdk/-/sdk-1.1.26.tgz#ff8caa62a36460eeb2266c85df649e2451313ca7"
-  integrity sha512-surJDg6aBRMnx3TAzBeBH/rNnlsTsykkBe1Fr7VMZgw3Ub4Q0RO2y5mAXtO4AmBqFtqLTbMW/2ItAQ6rVfKGPw==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@pinata/sdk/-/sdk-1.2.1.tgz#737be094479d639f6bad180951ef88e5c59a7f51"
+  integrity sha512-z728bnPa9lhkKeFnpXqE8j8BXeel6iE35o53pjYjmDEHh01ZE5c4L62Ks7zd2/MuDqNaUWUtGm0tNrEiSwFXoQ==
   dependencies:
     axios "^0.21.1"
     base-path-converter "^1.0.2"
