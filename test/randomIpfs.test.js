@@ -18,7 +18,9 @@ const { developmentChains } = require("../helper-hardhat-config")
           describe("constructor", () => {
               it("sets starting values correctly", async function () {
                   const wingsTokenUriZero = await randomIpfsNft.getWingsTokenUris(0)
+                  const isInitialized = await randomIpfsNft.getInitialized()
                   assert(wingsTokenUriZero.includes("ipfs://"))
+                  assert.equal(isInitialized, true)
               })
           })
 
@@ -91,7 +93,7 @@ const { developmentChains } = require("../helper-hardhat-config")
               })
               it("should revert if moddedRng > 99", async function () {
                   await expect(randomIpfsNft.getRarityFromModdedRng(100)).to.be.revertedWith(
-                      "RandomIpfsNft__RangeOutOfBounds"
+                      "RandomIpfsNft__RangeOutOfRarity"
                   )
               })
           })
